@@ -53,4 +53,10 @@ dkms.conf
 
 # Build dirs
 build/
-cmake-build*
+.idea/
+
+# CMake
+cmake-build-*/
+
+# IntelliJ
+out/
