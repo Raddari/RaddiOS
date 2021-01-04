@@ -1,7 +1,7 @@
-; **************************
-; bootloader.asm
-; Basic bootloader
-; **************************
+; +------------------+
+; | bootloader.asm   |
+; | Basic bootloader |
+; +------------------+
 bits 16
 org 0x7c00
 start: jmp boot
