@@ -4,7 +4,9 @@
 ; +------------------+
 bits 16
 org 0x7c00
-start: jmp boot
+
+start:
+    jmp boot
 
 ; Constant and variable defs
 msg db "Welcome to RaddiOS", 0ah, 0dh, 0h
